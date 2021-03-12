@@ -14,7 +14,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class GamingStore {
-    
+
     private static final String PAYPAL = "1";
     private static final String CREDIT_CARD = "2";
     private static final String TICKET = "3";
