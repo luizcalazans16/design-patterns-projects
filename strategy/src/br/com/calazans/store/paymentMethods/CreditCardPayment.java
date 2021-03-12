@@ -1,7 +1,7 @@
-package store.paymentMethods;
+package br.com.calazans.store.paymentMethods;
 
-import store.paymentMethods.interfaces.PaymentMethod;
-import store.model.CreditCard;
+import br.com.calazans.store.paymentMethods.interfaces.PaymentMethod;
+import br.com.calazans.store.model.CreditCard;
 
 import java.io.BufferedReader;
 import java.io.IOException;

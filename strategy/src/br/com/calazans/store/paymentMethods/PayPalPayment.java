@@ -1,6 +1,6 @@
-package store.paymentMethods;
+package br.com.calazans.store.paymentMethods;
 
-import store.paymentMethods.interfaces.PaymentMethod;
+import br.com.calazans.store.paymentMethods.interfaces.PaymentMethod;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,6 +1,6 @@
-package store.model;
+package br.com.calazans.store.model;
 
-import store.paymentMethods.interfaces.PaymentMethod;
+import br.com.calazans.store.paymentMethods.interfaces.PaymentMethod;
 
 import java.math.BigDecimal;
 

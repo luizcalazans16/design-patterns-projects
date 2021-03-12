@@ -1,4 +1,4 @@
-package store.model;
+package br.com.calazans.store.model;
 
 import java.math.BigDecimal;
 

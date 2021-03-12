@@ -1,4 +1,4 @@
-package store.paymentMethods.interfaces;
+package br.com.calazans.store.paymentMethods.interfaces;
 
 import java.math.BigDecimal;
 

@@ -1,10 +1,10 @@
-package store;
+package br.com.calazans.store;
 
-import store.model.Order;
-import store.paymentMethods.CreditCardPayment;
-import store.paymentMethods.PayPalPayment;
-import store.paymentMethods.TicketPayment;
-import store.paymentMethods.interfaces.PaymentMethod;
+import br.com.calazans.store.paymentMethods.interfaces.PaymentMethod;
+import br.com.calazans.store.model.Order;
+import br.com.calazans.store.paymentMethods.CreditCardPayment;
+import br.com.calazans.store.paymentMethods.PayPalPayment;
+import br.com.calazans.store.paymentMethods.TicketPayment;
 
 import java.io.BufferedReader;
 import java.io.IOException;
