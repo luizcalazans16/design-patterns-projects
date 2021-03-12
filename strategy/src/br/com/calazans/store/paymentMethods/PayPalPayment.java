@@ -26,14 +26,14 @@ public class PayPalPayment implements PaymentMethod {
     public void collectPaymentDetails() {
         try {
             while (!signedIn) {
-                System.out.println("Enter e-mail: ");
+                System.out.println("Digite o e-mail: ");
                 email = reader.readLine();
-                System.out.println("Enter password: ");
+                System.out.println("Digite a senha: ");
                 password = reader.readLine();
                 if (verify()) {
-                    System.out.println("Data verification has been successful.");
+                    System.out.println("Dados validados!");
                 } else {
-                    System.out.println("Wrong email or password!");
+                    System.out.println("E-mail ou senha incorretos");
                 }
             }
         } catch (IOException e) {
