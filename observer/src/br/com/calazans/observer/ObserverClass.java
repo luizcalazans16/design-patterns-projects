@@ -2,10 +2,7 @@ package br.com.calazans.observer;
 
 import br.com.calazans.observer.manager.FileManager;
 import br.com.calazans.observer.subscription.EmailNotification;
-import br.com.calazans.observer.subscription.FileEditionNotification;
 import br.com.calazans.observer.subscription.FileOpeningNotification;
-
-import java.io.File;
 
 public class ObserverClass {
 
@@ -21,7 +18,7 @@ public class ObserverClass {
         fileManager.credentialsFileManager.subscribe(SAVE_OPERATION,
                 new EmailNotification("luiz.calazans@viaflow.com.br"));
         fileManager.credentialsFileManager.subscribe(EDITION_OPERATION,
-                new FileEditionNotification("luiz.calazans@viaflow.com.br"));
+                new EmailNotification("luiz.calazans@viaflow.com.br"));
 
         try {
             fileManager.openFile(filePath);
